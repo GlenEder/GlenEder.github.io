@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<Title>Glen Eder</Title>
+	<link rel="stylesheet" type="text/css" href="Main.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Rationale" rel="stylesheet">
+	<script type="text/javascript" src="GlenEder.js"></script>
+</head>
+<body>
+	<section class="fullscreen">
+		<div class="inside">
+			<h1>Glen Michael Austin Eder</h1>
+			<h3>Aspiring Game and Website Developer</h3>
+		</div>
+	</section>
+
+	<div class="menuIcon" id="mainMenuIcon" onclick="changeMenuState(this)">
+			<div class="bar1"></div>
+			<div class="bar2"></div>
+			<div class="bar3"></div>
+	</div>
+
+	<div class="overlayContainers" id="menu">
+		<ul>
+			<li><a href="https://github.com/GlenEder">GitHub</a></li>
+			<li><a href="#" onclick="showPDF()">Resume</a></li>
+			<li><a href="#" onclick="showAboutInfo()">About</a></li>
+			<li><a href="#" onclick="showContactInfo()">Contact</a></li>
+		</ul>
+	</div>
+	
+	<div class="overlayContainers" id="resumeImageContainer">
+		<a href="#" class="closeButton" onclick="closePDF()">&times;</a>
+		<div class="overlayContent">
+			<embed id="pdf" src="Resume.pdf" width="1000" height="800" type='application/pdf' pluginspage="http://www.adobe.com/products/acrobat/readstep2.html"></embed>
+		</div>
+	</div>
+
+	<div class="overlayContainers" id="contactContainer">
+		<a href="#" class="closeButton" onclick="closeContactInfo()">&times;</a>
+		<div class="overlayContent">
+			<a href="mailto:geder@purdue.edu">Email: geder@purdue.edu</a><br/>
+			<a href="https://www.linkedin.com/in/glen-m-eder">Linkedin</a><br/>
+			<a href="https://www.instagram.com/glen_eder">Instagram</a><br/>
+			<a href="https://www.facebook.com/eder.glen">Facebook</a>
+			
+		</div>
+	</div>
+
+	<div class="overlayContainers" id="aboutContainer">
+		<a href="#" class="closeButton" onclick="closeAboutInfo()">&times;</a>
+		<div class="overlayContent" id="aboutInfoContainer">
+			<p>
+				Hello, my name is Glen Eder. I'm currently a student at Purdue University majoring in computer science focusing in computer graphics and visualization. In my free time I enjoy working with cars, building computers, and developing small games. Currently I am a memeber of the Purdue University Virtual Reality Development Club and the Purdue University Golden Silks. 
+			</p>
+	
+			<p>
+				In early 2017, me and my close friends formed the company trofi LLC. 
+			</p>
+			<a href="httP://www.trofi.io"><img src="trofiLogo.png" width="100%" /></a>
+
+			<p>
+				With trofi LLC fully underway, we released our first iOS and Android application, EatOut, where I was the lead front end Android developer. The app was designed to find you a place to eat when you couldn't decide yourself or want to try something new.
+			</p>
+
+			<a href="http://eatout.trofi.io/"><img src="eatOutLogo.png" width="800" height="480"/></a>
+
+		</div>
+	</div>
+
+	
+</body>
+</html>
