@@ -1,5 +1,6 @@
 let canvasWidth = 600;
 let canvasHeight = 400;
+let canvasBorder = 5;
 
 let player = new Player();
 let cpu = new Computer();
@@ -13,7 +14,11 @@ function setup() {
 
 
 function draw() {
-    background(51);
+    //draw field
+    fill(255);
+    rect(0, 0, canvasWidth, canvasHeight);
+    fill(51);
+    rect(canvasBorder, canvasBorder, canvasWidth - canvasBorder * 2, canvasHeight - canvasBorder * 2);
 
     //udpate logic
     player.update();
@@ -135,8 +140,8 @@ function Ball() {
 
     this.x = canvasWidth / 2;
     this.y = canvasHeight / 2;
-    this.xVel = 2;
-    this.yVel = 2;
+    this.xVel = 4;
+    this.yVel = 4;
     this.radius = 7;
 
     this.update = function() {
