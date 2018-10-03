@@ -51,3 +51,13 @@ function closeAboutInfo() {
 	document.getElementById("mainMenuIcon").style.visibility = "visible";
 	
 }
+
+function showGameTab() {
+	document.getElementById("gameTab").style.width = "100%";
+	document.getElementById("mainMenuIcon").style.visibility = "hidden";
+}
+
+function closeGameTab() {
+	document.getElementById("gameTab").style.width = "0%";
+	document.getElementById("mainMenuIcon").style.visibility = "visible";
+}
