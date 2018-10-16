@@ -8,7 +8,12 @@ function changeMenuState(x) {
 		document.getElementById("menu").style.width = "0%";
 		isMenuOpen = 0;
 	}else {
-		document.getElementById("menu").style.width = "13%";
+		console.log(window.innerWidth);
+		if(window.innerWidth > 1650) {
+			document.getElementById("menu").style.width = "8%";
+		}else {
+			document.getElementById("menu").style.width = "13%";
+		}
 		isMenuOpen = 1;
 	}
 
