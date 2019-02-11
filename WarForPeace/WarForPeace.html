@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src ="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+        <script src="sketch.js"></script>
+        <style type="text/css">
+        
+            *{
+                font-family: 'Courier New', Courier, monospace;
+            }
+
+            html {
+                background: #333333;
+            }
+            
+            canvas {
+                padding: 0;
+                margin: auto;
+                display: block;
+                border: 2px solid white;
+            }
+
+            div {
+                width: 50%;
+                padding: 0;
+                margin: auto;
+                display: block;
+                
+            }
+
+            p {
+                color: white;
+                text-align: center;
+                
+            }
+
+            h2, h3 {
+                color: white;
+                text-align: center;
+            }
+
+            a:visited, a:link {
+                color: white;
+                float:right;
+                padding: 10px;
+                text-decoration: none;
+            }
+        
+        </style>
+
+    </head>
+    <body>
+        <div>
+            <p>Rules of War For Peace:<br/>
+                1: Each player starts with five units on one tile randomly picked<br/>
+                2: In order to claim a tile the player must move at least one unit into the tile<br/>
+                3: If a tile is claimed by another player, in order to claim the tile, the player must place more units on the tile than the enemy player has on that tile<br/>
+                4: A unit can only move one tile each turn<br/>
+                5: If a tile that is overun by the player has enemy units on it, they also will claim the units on that tile<br/>
+                6: A game is won once the enemy player has no more tiles left<br/>
+            </p>
+            <h2 id="who_turn">Player 1's Turn</h2>
+            <h3 id="num_turns">Number of moves left: </h3>
+        </div>
+    
+    </body>
+</html>
