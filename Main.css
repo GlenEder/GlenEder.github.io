@@ -80,7 +80,7 @@ span {
 
 #flower {
 	width: 50%;
-	height: 100%;
+	height: inherit;
 	background: url("imgs/orangeFlowerVert.jpeg") no-repeat;
 	background-size: cover;
 }
