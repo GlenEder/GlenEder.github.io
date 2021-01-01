@@ -38,7 +38,6 @@ span {
 	justify-content: center;
 }
 
-
 .vertCenterContainer {
 	height: 100%;
 	display: flex;
@@ -53,7 +52,9 @@ span {
 
 .textContent {
 	text-align: center;
+	background: white;
 	padding: 50px;
+	z-index: 3;
 }
 
 .subHeader {
@@ -66,3 +67,23 @@ span {
 	padding: 10px 65px;
 }
 
+#photography {
+	position: absolute;
+	width: inherit;
+	height: inherit;
+	overflow: hidden;
+}
+
+
+#flower {
+	float: left;
+	width: 50%;
+	height: 100%;
+	background: url("imgs/orangeFlowerVert.jpeg") no-repeat fixed;
+	background-size: contain;
+}
+
+#steel {
+	background: url("imgs/steelTower.jpeg") no-repeat fixed;
+	background-size: cover;
+}
