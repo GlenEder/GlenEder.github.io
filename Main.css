@@ -30,7 +30,7 @@ span {
 
 .backdropImgLanding {
 	position: relative;
-	background: url("belltower.jpeg") no-repeat fixed center;
+	background: url("imgs/belltower.jpeg") no-repeat fixed center;
 	background-size: cover;
 	height: 100%;
 	width: 100%;
