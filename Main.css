@@ -70,7 +70,7 @@ span {
 #photography {
 	position: absolute;
 	width: inherit;
-	height: inherit;
+	height: 85%;
 	overflow: hidden;
 }
 
@@ -81,13 +81,13 @@ span {
 #flower {
 	width: 50%;
 	height: inherit;
-	background: url("imgs/orangeFlowerVert.jpeg") no-repeat;
+	background: url("imgs/orangeFlowerVert.jpeg") no-repeat center;
 	background-size: cover;
 }
 
 #steel {
 	width: 50%;
 	height: inherit;
-	background: url("imgs/steelTower.jpeg") no-repeat;
+	background: url("imgs/steelTower.jpeg") no-repeat center;
 	background-size: cover;
 }
