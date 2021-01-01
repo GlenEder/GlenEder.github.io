@@ -54,7 +54,6 @@ span {
 	text-align: center;
 	background: white;
 	padding: 50px;
-	z-index: 3;
 }
 
 .subHeader {
@@ -74,16 +73,20 @@ span {
 	overflow: hidden;
 }
 
+#photography div {
+	float: left;
+}
 
 #flower {
-	float: left;
 	width: 50%;
 	height: 100%;
-	background: url("imgs/orangeFlowerVert.jpeg") no-repeat fixed;
-	background-size: contain;
+	background: url("imgs/orangeFlowerVert.jpeg") no-repeat;
+	background-size: cover;
 }
 
 #steel {
-	background: url("imgs/steelTower.jpeg") no-repeat fixed;
+	width: 50%;
+	height: inherit;
+	background: url("imgs/steelTower.jpeg") no-repeat;
 	background-size: cover;
 }
