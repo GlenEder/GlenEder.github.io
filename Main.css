@@ -1,7 +1,5 @@
 *{
-	/*font-family: 'Rationale', sans-serif;*/
-	font-family: monospace;
-	color: #33ff00;
+	font-family: 'Rationale', sans-serif;
 	padding: 0;
 	margin: 0;
 }
@@ -29,4 +27,33 @@ h2 {
 
 h3 {
 	font-size: 300%;
+}
+
+.backdropImgLanding {
+	background: url("belltower.jpeg");
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+.backdropImgLanding {
+	position: relative;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.centeringContainer {
+	height: 100%;
+	display: flex;
+	align-items: center;
+}
+
+#nameSpan {
+	font-size: 400%;
+	color: white;
+	background: #333333;
+	padding: 10px 35px;
 }
