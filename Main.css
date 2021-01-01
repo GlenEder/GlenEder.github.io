@@ -1,20 +1,16 @@
 *{
-	font-family: 'Rationale', sans-serif;
-	text-shadow: 2px 2px gray;
+	/*font-family: 'Rationale', sans-serif;*/
+	font-family: monospace;
+	color: #33ff00;
+	padding: 0;
+	margin: 0;
 }
 
 html, body {
-	background-color: black;
 	margin: 0;
 	padding: 0;
 	width: 100%;
 	height: 100%;
-}
-
-p {
-	text-shadow: none;
-	font-size: 200%;
-	color: white;
 }
 
 h1, h2, h3 {
@@ -34,55 +30,3 @@ h2 {
 h3 {
 	font-size: 300%;
 }
-
-hr {
-	color: white;
-	background: white;
-}
-
-ul {
-	padding: 0;
-	text-align: center;
-	list-style: none;
-}
-
-li {
-	margin: 5px 0;
-	list-style-type: none;
-	display: inline-block;
-}
-
-a:visited, a:link {
- 	color: white;
- 	text-shadow: 2px 2px black;
- 	font-size: 250%;
- 	text-decoration: none;
- 	display: inline-block;
- 	padding: 5px;
- }
-
-a:hover {
-	text-decoration: underline;
-}
-
-.fullscreen {
-	width: 100%;
-	height: 100%;
-	margin: auto;
-	background-image: url("FriendshipIndiana.jpg");
-	background-size: cover;
-	display: table;
-	top: 0;
-}
-
-.inside {
-	display: table-cell;
-	vertical-align: middle;
-	width: 100%;
-	max-width: none;
-}
-
-
-
-
-
