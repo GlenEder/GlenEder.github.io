@@ -11,45 +11,33 @@ html, body {
 	height: 100%;
 }
 
-h1, h2, h3 {
-	color: white;
-	text-align: center;
-	text-shadow: 2px 2px black;
-}
-
-h1 {
-	font-size: 500%;
-}
-
-h2 {
-	font-size: 300%;
-}
-
-h3 {
-	font-size: 300%;
+p {
+	padding: 20px;
+	font-size: 150%;
 }
 
 span {
 	color: white;
 	background: #333333;
-	padding: 10px 35px;
+}
+
+.mainContainer {
+	width: 90%;
+	height: 100%;
+	margin-left: auto;
+	margin-right: auto
 }
 
 .backdropImgLanding {
-	background: url("belltower.jpeg");
+	position: relative;
+	background: url("belltower.jpeg") no-repeat fixed center;
+	background-size: cover;
 	height: 100%;
 	width: 100%;
 	display: flex;
 	justify-content: center;
 }
 
-.backdropImgLanding {
-	position: relative;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-}
 
 .vertCenterContainer {
 	height: 100%;
@@ -63,11 +51,18 @@ span {
 	justify-content: center;
 }
 
+.textContent {
+	text-align: center;
+	padding: 50px;
+}
+
 .subHeader {
-	font-size: 300%;
+	font-size: 250%;
+	padding: 5px 30px;
 }
 
 .nameSpan {
 	font-size: 400%;
+	padding: 10px 65px;
 }
 
