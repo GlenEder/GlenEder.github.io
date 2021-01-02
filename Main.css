@@ -17,6 +17,10 @@ p {
 	font-size: 150%;
 }
 
+a:link, a:visited {
+	text-decoration: none;
+}
+
 span {
 	color: white;
 	background: #333333;
@@ -67,6 +71,15 @@ span {
 	padding: 10px 65px;
 }
 
+.albumLink {
+	font-size: 150%;
+	padding: 5px 25px;
+	color: white;
+	background: #333333;
+	margin-top: 50px;
+	text-underline: none;
+}
+
 
 
 .overlayContainer:hover .imgOverlay{
@@ -94,7 +107,7 @@ span {
 
 #photography {
 	position: relative;
-	width: inherit;
+	width: 100%;
 	height: inherit;
 	margin-left: auto;
 	margin-right: auto;
@@ -118,7 +131,23 @@ span {
 	background-size: cover;
 }
 
-
 #musicBlock {
-	position: absolute;
+	height: 100%;
+	display: flex;
+}
+
+#albumLinkContainer {
+	display: inline;
+	list-style: none;
+}
+
+#albumLinkContainer li {
+	display: inline;
+}
+
+
+#topAlbums {
+	flex: 1;
+	background: url("imgs/swag.png") no-repeat center;
+	background-size: cover;
 }
