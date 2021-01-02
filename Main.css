@@ -133,6 +133,7 @@ span {
 
 #musicBlock {
 	height: 100%;
+	max-height: 100%;
 	display: flex;
 }
 
@@ -151,3 +152,45 @@ span {
 	background: url("imgs/swag.png") no-repeat center;
 	background-size: cover;
 }
+
+#petsContainer {
+	height: 50%;
+    display: flex;
+}
+
+#stackedPets {
+	height: 100%;
+	width: 50%;
+	display: flex;
+	flex: 2;
+}
+
+#petWords {
+	flex: 1;
+	display: flex;
+	align-items: center;
+}
+
+#petWords p {
+	text-align: center;
+}
+
+
+#aresPhoto {
+	width: 50%;
+	background: url("imgs/aresFin.jpg") no-repeat center;
+	background-size: cover;
+}
+
+#benjiPhoto {
+	width: 50%;
+	background: url("imgs/benji.jpg") no-repeat center;
+	background-size: cover;
+}
+
+#remsPhoto {
+	width: 50%;
+	background: url("imgs/rems.jpg") no-repeat top;
+	background-size: cover;
+}
+
