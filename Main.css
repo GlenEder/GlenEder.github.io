@@ -12,7 +12,7 @@ html, body {
 }
 
 p {
-	font-family: "DejaVu Sans Mono";
+	font-family: "DejaVu Sans Mono", serif;
 	padding: 20px;
 	font-size: 150%;
 }
@@ -81,7 +81,6 @@ span {
 	right: 0;
 	background-color: rgba(105, 105, 105, .8);
 	overflow: hidden;
-	width: 100%;
 	height: 0;
 	transition: .5s ease;
 	display: flex;
@@ -94,10 +93,11 @@ span {
 }
 
 #photography {
-	position: absolute;
+	position: relative;
 	width: inherit;
-	height: 85%;
-	overflow: hidden;
+	height: inherit;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #photography div {
@@ -106,14 +106,19 @@ span {
 
 #flower {
 	width: 50%;
-	height: inherit;
+	height: 85%;
 	background: url("imgs/orangeFlowerVert.jpeg") no-repeat center;
 	background-size: cover;
 }
 
 #steel {
 	width: 50%;
-	height: inherit;
+	height: 85%;
 	background: url("imgs/steelTower.jpeg") no-repeat center;
 	background-size: cover;
+}
+
+
+#musicBlock {
+	position: absolute;
 }
