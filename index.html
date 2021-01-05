@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<Title>Glen Eder</Title>
 	<link rel="stylesheet" type="text/css" href="Main.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Rationale" rel="stylesheet">
 	<script type="text/javascript" src="GlenEder.js"></script>
 </head>
@@ -11,16 +12,40 @@
 <div class="mainContainer">
 <!--	<iframe width=100% src="https://docs.google.com/document/d/e/2PACX-1vSNUWrGsJVPxMwgki57sBKHZ575RST04iWKY9HPM81GLVKs_Xzlska3ijvOSzLVGQo-k7F3BvVP_1uA/pub?embedded=true"></iframe>-->
 
+
 	<div style="height: 100%" class="horzCenterContainer">
+		<!--	Hidden social fixed bar -->
+		<div class="fixedSocials">
+			<span class="subheader">Glen M Eder</span>
+			<div class="icon-bar">
+				<a href="https://github.com/GlenEder" class="github"><i class="fa fa-github"></i></a>
+				<a href="https://www.facebook.com/eder.glen" class="facebook"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/glen_eder" class="twitter"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.instagram.com/glen_eder/" class="instagram"><i class="fa fa-instagram"></i></a>
+				<a href="https://www.linkedin.com/in/glen-m-eder/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+				<a href="https://open.spotify.com/user/g_eder?si=uRGE_-MXSLagQR-FbpoSPA" class="spotify"><i class="fa fa-spotify"></i></a>
+			</div>
+		</div>
+
 		<div class="backdropImgLanding">
 			<div class="vertCenterContainer">
-				<span class="header">Glen M. Eder</span>
+				<div style="display: flex; flex-direction: column">
+					<span class="header">Glen M. Eder</span>
+					<div class="icon-bar">
+						<a href="https://github.com/GlenEder" class="github"><i class="fa fa-github"></i></a>
+						<a href="https://www.facebook.com/eder.glen" class="facebook"><i class="fa fa-facebook"></i></a>
+						<a href="https://twitter.com/glen_eder" class="twitter"><i class="fa fa-twitter"></i></a>
+						<a href="https://www.instagram.com/glen_eder/" class="instagram"><i class="fa fa-instagram"></i></a>
+						<a href="https://www.linkedin.com/in/glen-m-eder/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+						<a href="https://open.spotify.com/user/g_eder?si=uRGE_-MXSLagQR-FbpoSPA" class="spotify"><i class="fa fa-spotify"></i></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
 
 
-<!--	About section  -->
+	<!--	About section  -->
 	<div class="textContent">
 		<span class="subheader">Hello There!</span>
 		<p class="textContent">
@@ -105,7 +130,13 @@
 	</div>
 	<div id="edWorkContainer">
 		<div id="education">
-			<div id="gradPhoto"></div>
+			<div id="gradPhoto" class="overlayContainer">
+				<div class="imgOverlay">
+					<p class="overlayText">
+						This is me, all 6'5" of it.
+					</p>
+				</div>
+			</div>
 			<div id="purdueTrain"></div>
 		</div>
 		<div id="work">
