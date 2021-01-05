@@ -194,3 +194,10 @@ span {
 	background-size: cover;
 }
 
+#edWorkContainer {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background: url("imgs/purdueTrain.jpg") no-repeat center;
+	background-size: cover;
+}
