@@ -1,89 +1,170 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
+	<meta charset="UTF-8">
 	<Title>Glen Eder</Title>
 	<link rel="stylesheet" type="text/css" href="Main.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Rationale" rel="stylesheet">
 	<script type="text/javascript" src="GlenEder.js"></script>
 </head>
 <body>
-	<section class="fullscreen">
-		<div class="inside">
-			<h1>Glen Michael Austin Eder</h1>
-			<h3>Aspiring Game and Website Developer</h3>
+<div class="mainContainer">
+
+
+	<div style="height: 100%" class="horzCenterContainer">
+		<!--	Hidden social fixed bar -->
+		<div class="fixedSocials">
+			<div class="icon-bar">
+				<a href="https://github.com/GlenEder" class="github"><i class="fa fa-github"></i></a>
+				<a href="https://www.facebook.com/eder.glen" class="facebook"><i class="fa fa-facebook"></i></a>
+				<a href="https://twitter.com/glen_eder" class="twitter"><i class="fa fa-twitter"></i></a>
+				<a href="https://www.instagram.com/glen_eder/" class="instagram"><i class="fa fa-instagram"></i></a>
+				<a href="https://www.linkedin.com/in/glen-m-eder/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+				<a href="https://open.spotify.com/user/g_eder?si=uRGE_-MXSLagQR-FbpoSPA" class="spotify"><i class="fa fa-spotify"></i></a>
+			</div>
 		</div>
-	</section>
 
-	<div class="menuIcon" id="mainMenuIcon" onclick="changeMenuState(this)">
-			<div class="bar1"></div>
-			<div class="bar2"></div>
-			<div class="bar3"></div>
-	</div>
-
-	<div class="overlayContainers" id="menu">
-		<ul>
-			<li><a href="https://github.com/GlenEder">GitHub</a></li>
-			<li><a href="#" onclick="showPDF()">Resume</a></li>
-			<li><a href="#" onclick="showAboutInfo()">About</a></li>
-			<li><a href="#" onclick="showContactInfo()">Contact</a></li>
-			<li><a href="#" onclick="showGameTab()">Games</a></li>
-		</ul>
-	</div>
-	
-	<div class="overlayContainers" id="resumeImageContainer">
-		<a href="#" class="closeButton" onclick="closePDF()">&times;</a>
-		<div class="overlayContent">
-			<!--<embed id="pdf" src="Resume.pdf" width="1000" height="800" type='application/pdf' pluginspage="http://www.adobe.com/products/acrobat/readstep2.html"></embed>-->
-			<iframe width=50% height=150% src="https://docs.google.com/document/d/e/2PACX-1vSNUWrGsJVPxMwgki57sBKHZ575RST04iWKY9HPM81GLVKs_Xzlska3ijvOSzLVGQo-k7F3BvVP_1uA/pub?embedded=true"></iframe>
+		<div class="backdropImgLanding">
+			<div class="vertCenterContainer">
+				<div style="display: flex; flex-direction: column">
+					<span class="header">Glen M. Eder</span>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	<div class="overlayContainers" id="contactContainer">
-		<a href="#" class="closeButton" onclick="closeContactInfo()">&times;</a>
-		<div class="overlayContent">
-			<a href="mailto:geder@purdue.edu">Email: geder@purdue.edu</a><br/>
-			<a href="https://www.linkedin.com/in/glen-m-eder">Linkedin</a><br/>
-			<a href="https://www.instagram.com/glen_eder">Instagram</a><br/>
-			<a href="https://www.facebook.com/eder.glen">Facebook</a>
-			
+
+	<!--	About section  -->
+	<div class="textContent">
+		<span class="subheader">Hello There!</span>
+		<p class="textContent">
+			You must be lost landing on my site here. That's alright though,
+			might as well take a look around while you're visiting. Below you'll
+			find all kinds of information about me including: hobbies, a resume,
+			and my pets. Let's scroll on down to begin the journey shall we?
+		</p>
+	</div>
+
+<!--	Photography block -->
+	<div class="textContent">
+		<span class="subheader">Hobbies</span>
+	</div>
+	<div id="photography">
+		<div id="flower" class="overlayContainer">
+			<div class="imgOverlay">
+				<p class="overlayText">
+					I recently acquired a camera, and I am certainly far from professional, but
+					I sure act like a pro when I'm messing around with it.
+				</p>
+			</div>
+		</div>
+		<div id="steel" class="overlayContainer">
+			<div class="imgOverlay">
+				<p class="overlayText">
+					All the photos on this site are taken by myself, which I
+					am oddly proud of (Excluding album arts of course).
+				</p>
+			</div>
 		</div>
 	</div>
 
-	<div class="overlayContainers" id="aboutContainer">
-		<a href="#" class="closeButton" onclick="closeAboutInfo()">&times;</a>
-		<div class="overlayContent" id="aboutInfoContainer">
+<!--	Music Block  -->
+	<div id="musicBlock">
+		<div id="topAlbums"></div>
+		<div style="flex: 1; padding-top: 0" class="textContent">
 			<p>
-				Hello, my name is Glen Eder. I'm currently a student at Purdue University majoring in computer science focusing in computer graphics and visualization. In my free time I enjoy working with cars, building computers, and developing small games. Currently I am a memeber of the Purdue University Virtual Reality Development Club and the Purdue University Golden Silks. 
+			Music is a huge part of my life. It is rare that you find me not
+			listening to music when I'm doing literally anything. One of my favorite
+			things to do is to find new artists and create playlists with out-of-context
+			titles. Do yourself a favor, and check out my favorite album (the embedded Spotify
+			player below for your browsing enjoyment; other artists shown on left linked further
+				below).
 			</p>
-	
-			<p>
-				In early 2017, me and my close friends formed the company trofi LLC. 
-			</p>
-			<a href="httP://www.trofi.io"><img src="trofiLogo.png" width="100%" /></a>
+			<iframe src="https://open.spotify.com/embed/album/4jaLT2amEyHRGz1EdGyvUy" width="80%" height="40%" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
 
-			<p>
-				With trofi LLC fully underway, we released our first iOS and Android application, EatOut, where I was the lead front end Android developer. The app was designed to find you a place to eat when you couldn't decide yourself or want to try something new.
-			</p>
+			<br/><br/>
 
-			<a href="http://eatout.trofi.io/"><img src="eatOutLogo.png" width="800" height="480"/></a>
+			<ul id="albumLinkContainer">
+				<li><a class="albumLink" href="https://open.spotify.com/artist/6p2HnfM955TI1bX34dkLnI?si=ukS35mXWRV-nNXlxGBhEZQ">The Backseat Lovers</a></li>
+				<li><a class="albumLink" href="https://open.spotify.com/artist/0EzsHuJxUDcfqSqvoPhKG4?si=OeEWpomwSvez4vxzPZaE7A">Far Caspian</a></li>
+				<li><a class="albumLink" href="https://open.spotify.com/artist/6bWylzDlsTfR8khADRQJfd?si=lYKdinA_Rwm3GCe9HEUT2w">Trevor Something</a></li>
+			</ul>
 
 		</div>
 	</div>
 
-	<div class="overlayContainers" id="gameTab">
-		<a href="#" class="closeButton" onclick="closeGameTab()">&times;</a>
-		<div class="overlayContent" id="gameTabContent">
-			<a href="Pong\Pong.html">Pong Clone</a>
-			<p>This was my first attempt at making a simple game using the p5.js framework</p>
+<!-- 	Pets	-->
+	<div class="textContent">
+		<span class="subheader">The Pets</span>
+	</div>
+	<div id="petsContainer">
+		<div id="petWords">
+			<p>
+				Starting on the left we have my cat Benji. In the middle is my parents dog Fin
+				on top of the couch, and my old dog Ares below him. Finally we have Rems, my
+				current dog.
+			</p>
+		</div>
+		<div id="stackedPets">
+			<div id="benjiPhoto"></div>
+			<div id="aresPhoto"></div>
+			<div id="remsPhoto"></div>
+		</div>
 
-			<a href="Come-And-Get-Me/ComeAndGetMe.html">Come and Get Me</a>
-			<p>A game about manipulating the AI to score points. Made in javascript with the p5.js libraries, this game was a fun weekend project.</p>
+	</div>
 
-			<a href="WarForPeace/WarForPeace.html">War for Peace</a>
-			<p>This is a simple strategy game designed to be fast paced and easy to pick up. This game was also made over a weekend in javascript using the p5.js libraries.</p>
+<!-- 	Education & Work	-->
+	<div class="textContent">
+		<span class="subheader">Education & Work</span>
+	</div>
+	<div id="edWorkContainer">
+		<div id="education">
+			<div id="gradPhoto" class="overlayContainer">
+				<div class="imgOverlay">
+                    <p class="overlayText">
+						This is me, all 6'5" of it. Standing in front of my mom's favorite
+						tree, waiting for the photo op to conclude.
+					</p>
+				</div>
+			</div>
+			<div id="purdueTrain" class="overlayContainer">
+				<div class="imgOverlay">
+					<p class="overlayText">
+						I graduated Purdue University in December of 2020 with
+						a Bachelor's in Computer Science.
+					</p>
+				</div>
+			</div>
+		</div>
+		<div id="work">
+			<div id="trofi" class="overlayContainer">
+				<div class="imgOverlay">
+					<p class="overlayText">
+						Trofi LLC was a company my friends and I formed freshman
+						year that we released our app EatOut under.
+					</p>
+				</div>
+			</div>
+			<div id="eatout" class="overlayContainer">
+				<div class="imgOverlay">
+					<p class="overlayText">
+						EatOut is an app to find places to eat when you can't
+						decide. I was the front end developer for the android version.
+					</p>
+				</div>
+			</div>
 		</div>
 	</div>
 
-	
+<!--	Resume-->
+	<div class="textContent">
+		<span class="subheader">Resume</span>
+	</div>
+	<div class="horzCenterContainer" style="height: 100%">
+		<iframe width="50%" height="100%" src="https://docs.google.com/document/d/e/2PACX-1vSNUWrGsJVPxMwgki57sBKHZ575RST04iWKY9HPM81GLVKs_Xzlska3ijvOSzLVGQo-k7F3BvVP_1uA/pub?embedded=true"></iframe>
+	</div>
+
+</div>
 </body>
 </html>
