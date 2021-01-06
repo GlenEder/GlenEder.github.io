@@ -92,10 +92,15 @@ span {
 
 .fixedSocials {
 	position: fixed;
-	top: 0;
-	width: 100%;
+	top: 30%;
+	left: 0;
+	width: 5%;
 	height: auto;
 	overflow: hidden;
+}
+
+.fixedSocials div {
+	display: block;
 }
 
 .icon-bar a {
